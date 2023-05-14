@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="footer, address, phone, icons" />
+  <link rel="stylesheet" href="../Style.css">
+</head>
+<body>
+
+	
+<nav>
+<div class="header-top">
+      <div class="headertop">
+            <div class="top-left">
+                  <h2>Security Keys with Multiples field based Credential Authentication System</h2>
+      </div>
+</div>
+     <div class="Navlist">
+                              <a href="../index.html">Home</a>
+                              <a href="../about.html">About Project</a>
+							  <a href="../contact.html">Contact</a>
+                              <a href="../registration/signup.html">Sign Up</a>
+                              <a href="login.html">Login</a>
+      </div>
+    </div>
+</nav>
+
+<div class="signinform">
+			<div class="login_infol">
+				<h2>Log-in Account</h2>
+				<form name="signup" action="login.php" method="post" onsubmit="return validate();">
+					<label>Username</label>
+					<div class="input-group">
+						
+						<input type ="text" name="name" id="name" placeholder=" Please Enter Your Username" required="" onBlur="test();"> 
+					   </div>
+					<label>Password</label>
+					<div class="input-group">
+						
+						<input type="Password" name="password" placeholder=" Please Enter Your Password" required="">
+					</div>
+					<div class="Keys">  
+					<h2>Enter Two Keys with Minimum Length of 04 Characters</h2>
+				
+					<label>Enter First Key</label>
+					<div class="input-group">
+						
+						<input type ="Password" name="Keyone" id="Keyone" placeholder=" Please Enter Fisrt Key"  onBlur="test();"> 
+					   </div>
+					   <label>Enter Second Key</label>
+					<div class="input-group">
+						
+						<input type ="Password" name="Keytwo" id="Keytwo" placeholder=" Please Enter Second Key"  onBlur="test();"> 
+					   </div>
+					   <label>Enter Third Key</label>
+					<div class="input-group">
+						
+						<input type ="Password" name="Keythird" id="Keythird" placeholder=" Please Enter Third Key"  onBlur="test();"> 
+					   </div>
+					   </div>
+					        
+					<button class="btn-sub" type="submit" name="submit">Log-in</button >  
+
+
+				</form>
+				<p class="account"> I agree with Terms and Conditions</a></p>
+				<p class="account">New User <a href="../registration/signup.html">Sign-up</a></p>
+</div>
+</div>
+<footer class="footer">
+	<a href="../index.html">Home</a>
+	<a href="../about.html">About Project</a>
+	<a href="../contact.html">Contact</a>
+	<a href="../registration/signup.html">Sign Up</a>
+	<a href="login.html">Log-in</a>
+	<p>Copyright &copy; Narendra Kumar Patel - 2023</p>
+</footer>
+</body>
+</html>

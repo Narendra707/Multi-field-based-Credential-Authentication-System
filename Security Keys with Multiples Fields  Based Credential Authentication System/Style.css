@@ -1,0 +1,257 @@
+*{
+    margin: 1px;
+    padding: 0;
+}
+.header-top{
+    text-align: center;
+    background-color: bisque;
+}
+
+.Navlist{
+    display: flex;
+    background-color: rgb(48, 35, 17);
+    
+    width: 100%;
+    height:8vh;
+    text-align: center;
+    
+}
+.Navlist a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    width: 200px;
+    font: bold;
+   color: rgb(240, 236, 236);
+}
+.footer{
+    background-color: rgb(66, 58, 58);
+    height: 10vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+
+}
+.section-body{
+    height: 50vh;
+    
+    border: 3px solid rgb(18, 43, 50);
+    text-align: center;
+    padding: 190px 0;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-size:1600px;
+    background-image:linear-gradient(45deg,
+      rgba(184, 174, 174, 0.75),rgba(78, 82, 87, 0.75)), url('Img/home1.jpg');
+
+}
+.section-body p {
+
+    padding: 10px;
+
+    font-size: 30px;
+    color: aliceblue;
+    background-color: black;
+
+
+}
+/* .section-bodypart1{
+    height: 300px;
+} */
+.sectiona-body{
+    height: 50vh;
+    
+    border: 3px solid rgb(18, 43, 50);
+    text-align: center;
+    padding: 190px 0;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-size:1600px;
+    background-image:linear-gradient(45deg,
+      rgba(184, 174, 174, 0.75),rgba(78, 82, 87, 0.75)), url('Img/home1.jpg');
+
+}
+.sectiona-body p {
+    padding: 10px;
+
+    font-size: 30px;
+    color: rgb(251, 252, 253);
+    background-color: rgb(105, 92, 92);
+
+
+}
+.sectiona-body h2 {
+    padding: 10px;
+
+    font-size: 30px;
+    color: rgb(1, 5, 8);
+    background-color: aliceblue;
+  
+
+
+}
+.sectiona-bodypart1{
+    height: 200px;
+    text-align: center;
+}
+.sectionc-body{
+    height: 50vh;
+    
+    border: 3px solid rgb(18, 43, 50);
+    text-align: center;
+    padding: 190px 0;
+    background-repeat: no-repeat;
+    text-align:center;
+    background-size:1600px;
+    background-image:linear-gradient(45deg,
+      rgba(184, 174, 174, 0.75),rgba(78, 82, 87, 0.75)), url('Img/home1.jpg');
+
+}
+.sectionc-body p {
+    padding: 10px;
+
+    font-size: 30px;
+    color: rgb(251, 252, 253);
+    background-color: rgb(81, 21, 21);
+
+
+}
+.sectionc-body p a {
+    padding: 10px;
+
+    font-size: 30px;
+    color: rgb(251, 252, 253);
+    background-color: rgb(81, 21, 21);
+    text-decoration: none;
+
+
+}
+.signupform{
+    text-align:center;
+    padding: 1px;
+    height: 100vh;
+    display: inline-block
+  
+
+}
+.signinform{
+    text-align:center;
+    padding: 1px;
+    height: 100vh;
+    display: inline-block
+  
+
+}
+.login_info{
+   
+    background-color: rgb(119, 119, 194);
+    position: absolute;
+    right: 550px;
+    width: 400px;
+    height: 575px;
+    font-size: 20px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  
+  
+}
+
+.login_info .btn-sub{
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    color: aliceblue;
+    background-color:rgb(16, 34, 49);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.login_info label{
+  max-width: 20px;
+  
+}
+.footer p{
+    color: aliceblue;
+}
+.login_infol p{
+    color: rgb(20, 9, 9);
+    
+}
+.login_infol p a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.login_info p{
+    color: rgb(20, 9, 9);
+    
+}
+.login_info p a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+.login_infol{
+   
+    background-color: rgb(119, 119, 194);
+    position: absolute;
+    right: 550px;
+    width: 400px;
+    height: 505px;
+    font-size: 20px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  
+  
+}
+
+.login_infol .btn-sub{
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    color: aliceblue;
+    background-color:rgb(16, 34, 49);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.login_infol label{
+  max-width: 20px;
+  
+}
+
+.input-group input{
+    width: 250px;
+    height: 30px;
+}
+.username-fail{
+    text-align: center;
+    height: 80vh;
+}
+.username-fail h2{
+    color: red;
+}
+.btn-a{
+    background-color: rgb(75, 48, 48);
+    color: white;
+    font-size: 17px;
+    padding: 5px;
+    text-decoration: none;
+}
+.Keys h2{
+
+    font-size: 16px;
+    color: rgb(222, 207, 223);
+    background-color: black;
+    margin: 1px;
+    padding: 3px;
+
+}
